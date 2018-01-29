@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TVBUS DEMO APP</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css"> 
+      .infoBox {
+        position:fixed; 
+        top: 10px; 
+        right: 10px; 
+        z-index: 100;
+        width: 100px;
+        font-size: 20px;
+      }
+
+      body {
+          background-color: #000000;
+      }
+
+      .fullwidth {
+        width: 100%;
+      }
+
+      hr { 
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 1em;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 2px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="infoBox">
+      <span id="info" class="badge badge-info fullwidth text-right">Initing ...</span>
+      <br>
+      <span id="dl-rate" class="badge badge-info fullwidth text-right">0 Kbps</span>
+    </div>
+    <div style="width: 800px; height:450px" id="player"></div>
+    <hr>
+    <div class="container text-center">
+      <button class="btn btn-primary"  id="2">CCTV 4</button>
+      <button class="btn btn-primary"  id="3"> Phoenix InfoNews</button>
+    </div>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./play.js')
+  </script>
+</html>

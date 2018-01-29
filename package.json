@@ -1,0 +1,14 @@
+{
+    "name": "your-app",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "electron . --debug-brk=5858"
+    },
+    "dependencies": {
+        "bootstrap": "^4.0.0",
+        "clappr": "^0.2.86",
+        "electron": "^1.7.11"
+    }
+}
