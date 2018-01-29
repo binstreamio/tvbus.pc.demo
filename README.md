@@ -8,8 +8,9 @@ tvbus.pc.demo is a demo app for tvbus.pc based on Electron.
 ### QuickStart
 -----
 * Install latest Node.js
-* Clone this repository, git clone https://github.com/binstreamio/tvbus.pc.demo.git tvbus.pc.demo
-* cd tvbus.pc.demo && npm install
+* Clone this repository, git clone https://github.com/binstreamio/tvbus.pc.demo.git tvbus.pc.demo && cd tvbus.pc.demo
+* git submodule init && git submodule update
+* npm install
 * npm start
 * done
 
