@@ -1,0 +1,3 @@
+[submodule "tvbus.js"]
+	path = tvbus.js
+	url = https://binstreamio@github.com/binstreamio/tvbus.pc.git
